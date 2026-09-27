@@ -1,0 +1,2 @@
+# Dependências usadas somente no desenvolvimento e nos testes
+pytest==9.1.1

@@ -1,0 +1,15 @@
+# Ambiente virtual local
+.venv/
+
+# Cache e bytecode do Python
+__pycache__/
+*.py[cod]
+
+# Metadados locais gerados pelo empacotamento Python
+*.egg-info/
+
+# Cache de testes
+.pytest_cache/
+
+# Variáveis de ambiente locais
+.env
