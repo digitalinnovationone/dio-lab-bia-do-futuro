@@ -1,0 +1,126 @@
+[
+  {
+    "id": "falsa_central_funcionario",
+    "golpe": "Falsa Central / Falso Funcionário",
+    "palavras_chave": [
+      "ligacao",
+      "ligou",
+      "telefone",
+      "central",
+      "gerente",
+      "funcionario",
+      "atendente",
+      "seguranca do banco",
+      "cancelar compra",
+      "cancelar uma compra",
+      "estorno",
+      "pix de teste",
+      "testar"
+    ],
+    "regra": "O Bradesco não liga pedindo PIX, transferência, PIX de teste, estorno ou 'cancelamento' de compra. Quem pede isso por telefone é golpista, mesmo que saiba seus dados ou o número pareça ser do banco.",
+    "acao": "Desligar a chamada, não concluir o PIX e conferir o extrato pelo app oficial. Para falar com o banco, ligar por conta própria pelo número do verso do cartão ou pelo app.",
+    "fonte": "Orientações públicas de segurança do Bradesco"
+  },
+  {
+    "id": "conta_segura_urgencia",
+    "golpe": "Conta segura / Urgência",
+    "palavras_chave": [
+      "conta segura",
+      "proteger meu dinheiro",
+      "proteger seu dinheiro",
+      "invadida",
+      "invasao",
+      "clonado",
+      "clonaram",
+      "urgente",
+      "urgencia",
+      "pressa",
+      "correndo",
+      "bloquear"
+    ],
+    "regra": "Golpistas criam urgência dizendo que a conta foi invadida e pedem transferência para uma 'conta segura'. Não existe conta segura para onde o cliente precise transferir dinheiro, e nenhum procedimento legítimo de segurança exige isso.",
+    "acao": "Parar, não transferir nada e verificar a situação diretamente no app oficial ou pelos canais oficiais do banco.",
+    "fonte": "Orientações públicas de segurança do Bradesco"
+  },
+  {
+    "id": "pix_agendado_comprovante_falso",
+    "golpe": "PIX Agendado / Comprovante Falso",
+    "palavras_chave": [
+      "agendado",
+      "agendamento",
+      "comprovante",
+      "paguei",
+      "recebi",
+      "devolver",
+      "devolucao",
+      "depositou",
+      "pix errado"
+    ],
+    "regra": "Golpistas enviam comprovantes falsos ou agendam um PIX para a conta da vítima e pedem devolução antes de o dinheiro cair. Um PIX agendado pode ser cancelado antes da data de execução, e um comprovante não prova que o dinheiro entrou.",
+    "acao": "Conferir o saldo e o extrato no app oficial antes de devolver qualquer valor. Não devolver dinheiro com base apenas em comprovante ou mensagem.",
+    "fonte": "Orientações públicas de segurança do Bradesco"
+  },
+  {
+    "id": "acesso_remoto_links",
+    "golpe": "Acesso remoto / Links suspeitos",
+    "palavras_chave": [
+      "instalar",
+      "aplicativo",
+      "acesso remoto",
+      "anydesk",
+      "teamviewer",
+      "compartilhar tela",
+      "link",
+      "baixar",
+      "suporte tecnico"
+    ],
+    "regra": "O banco não pede instalação de aplicativos de acesso remoto nem cliques em links enviados por mensagem ou durante ligações. Isso permite que golpistas controlem o celular do cliente.",
+    "acao": "Não instalar nem clicar. Se já instalou, desinstalar e avisar o banco imediatamente pelos canais oficiais.",
+    "fonte": "Orientações públicas de segurança do Bradesco"
+  },
+  {
+    "id": "dados_sensiveis",
+    "golpe": "Solicitação de dados sensíveis",
+    "palavras_chave": [
+      "senha",
+      "token",
+      "cvv",
+      "codigo",
+      "cartao",
+      "pin",
+      "sms",
+      "verificacao"
+    ],
+    "regra": "Senhas, token, CVV, códigos recebidos por SMS e dados completos do cartão são pessoais e intransferíveis. O banco não pede esses dados por telefone, mensagem ou chat.",
+    "acao": "Não compartilhar com ninguém. Se já compartilhou, trocar as senhas e avisar o banco imediatamente pelos canais oficiais.",
+    "fonte": "Orientações públicas de segurança do Bradesco"
+  },
+  {
+    "id": "ja_fui_vitima_med",
+    "golpe": "Cliente já realizou o PIX (pós-golpe)",
+    "palavras_chave": [
+      "ja fiz",
+      "ja transferi",
+      "ja enviei",
+      "ja paguei",
+      "cai no golpe",
+      "fui vitima",
+      "fui enganado",
+      "fui enganada",
+      "roubaram",
+      "recuperar",
+      "mecanismo especial"
+    ],
+    "regra": "Quem já foi vítima deve avisar o banco imediatamente. O Banco Central mantém o Mecanismo Especial de Devolução (MED), que permite pedir o bloqueio e a devolução de valores de PIX ligados a fraude. Quanto antes o pedido for feito, maiores as chances de recuperação, mas não há garantia.",
+    "acao": "Contatar o banco pelos canais oficiais agora, registrar boletim de ocorrência e guardar comprovantes e conversas.",
+    "fonte": "Banco Central do Brasil (Mecanismo Especial de Devolução do PIX)"
+  },
+  {
+    "id": "geral",
+    "golpe": "Orientação geral anti-golpe",
+    "palavras_chave": [],
+    "regra": "Golpes de engenharia social usam pressão psicológica, urgência e falsa autoridade. O banco não pede transferências, senhas, tokens ou instalação de aplicativos por telefone, mensagem ou chat.",
+    "acao": "Interromper a operação, não agir sob pressão e confirmar diretamente pelo app oficial ou por canais oficiais.",
+    "fonte": "Orientações públicas de segurança do Bradesco"
+  }
+]
